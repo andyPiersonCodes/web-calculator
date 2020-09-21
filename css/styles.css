@@ -1,0 +1,19 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #edeceb;
+}
+
+.boxes{
+    background-color: #b8b8b8;
+}
+.button{
+    background-color: #f5bb64;
+}
+
+.button:hover{
+    background-color: #aafc95;
+}
+
+h2{
+    color: #e35f5f;
+}
