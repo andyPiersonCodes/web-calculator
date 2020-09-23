@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Calculator</title>
+    <script src="./scripts/script.js"></script>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <meta charset="UTF-8" />
+</head>
+
+<body>
+    <h1>Enter 2 Numbers</h1>
+    <form onsubmit = "calculate(); return false;">
+        <input class="boxes" type="text" id="number1" />
+        <select id="operator">
+            <option value=''></option>
+            
+            <option value='plus'>+</option>
+            <option value='minus'>-</option>
+            <option value='times'>*</option>
+            <option value='divide'>/</option>
+            <option value='whatsThis'>?</option>
+        </select>
+        <input class="boxes" type="text" id="number2" />
+        <input class="submit" type="submit" />
+        </form>
+        <div>
+
+
+
+        </div>
+
+        <div>
+            <h2 id ="answer"></h2>
+        </div>
+
+
+</body>
+
+</html>
+

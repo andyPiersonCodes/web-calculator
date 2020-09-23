@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #edeceb;
+}
+
+.boxes{
+    background-color: #b8b8b8;
+}
+.submit{
+    background-color: #f5bb64;
+}
+
+.button:hover{
+    background-color: #aafc95;
+    width: 1em;
+}
+.calculator-keys {
+  display: grid;
+}
+
+h2{
+    color: #e35f5f;
+}
